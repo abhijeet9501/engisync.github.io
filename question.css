@@ -1,0 +1,81 @@
+.semhead {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.semhead h3 {
+  padding-top: 1vh;
+}
+
+.semcontainer {
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+  padding: 1vh;
+  background-color: black;
+}
+
+.allsem {
+  overflow: hidden;
+  border-radius: 2vh;
+  background-color: white;
+}
+
+.semester h3::after {
+  content: "▶️";
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.semester.active h3::after {
+  content: "▼";
+}
+
+.subject.active ul {
+  display: block;
+}
+
+.subject {
+  display: none;
+}
+
+.semester h3,
+.subject h4 {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.semester h3:hover,
+.subject h4:hover {
+  background-color: rgb(238, 234, 234);
+}
+
+.subject ul {
+  list-style-type: none;
+  padding: 0;
+  display: none;
+}
+
+.subject ul li {
+  background-color: white;
+  display: flex;
+}
+
+.subject ul li {
+  margin: 5px 0;
+}
+
+.subject ul li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

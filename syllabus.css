@@ -1,0 +1,38 @@
+.syllabus-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .syllabus-table th {
+    background-color: #007BFF; /* Background color for the heading row */
+    color: #fff;
+    border: 1px solid #0c0c0c;
+    padding: 10px;
+  }
+  
+  .syllabus-table td {
+    border: 1px solid #070707;
+    padding: 10px;
+  }
+  .tablehead{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    padding-left: 2vh;
+  }
+  .tableend{
+    height: 4vh;
+  }
+  
+
+  @media (max-width: 600px) {
+    .table{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .syllabus-table{
+      width: 90%;
+    }
+  }

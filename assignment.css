@@ -1,0 +1,22 @@
+.de {
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+}
+
+.subject{
+  background-color: black;
+}
+.subhead{
+  color: #fff;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 1vh;
+  padding-left: 2vh;
+}
+.subhead h5{
+  padding-left: 1vh;
+}
+
